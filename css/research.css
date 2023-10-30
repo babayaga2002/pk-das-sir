@@ -214,59 +214,6 @@ img {
     .column {
         max-width: 50%;
     }
-    .navbar {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: #000;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        transform: translateX(100%);
-        transition: all 0.3s linear;
-
-        opacity: 1;
-        visibility: visible;
-        pointer-events: none;
-    }
-
-    .navbar .navbar-list {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar .navbar-link {
-        color: var(--white);
-    }
-
-    .mobile-navbar-btn {
-        display: block;
-        z-index: 9999;
-    }
-
-    .active .navbar {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-        transform: translateX(0);
-        z-index: 999;
-    }
-
-    .active .mobile-navbar-btn .mobile-nav-icon[name="close"] {
-        display: block;
-        color: var(--white);
-    }
-
-    .active .mobile-navbar-btn .mobile-nav-icon[name="menu"] {
-        display: none;
-        color: var(--white);
-    }
 }
 
 @media (min-width: 992px) {
@@ -310,59 +257,6 @@ img {
 }
 
 @media screen and (max-width: 952px) {
-    .navbar {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background: #000;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        transform: translateX(100%);
-        transition: all 0.3s linear;
-
-        opacity: 1;
-        visibility: visible;
-        pointer-events: none;
-    }
-
-    .navbar .navbar-list {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar .navbar-link {
-        color: var(--white);
-    }
-
-    .mobile-navbar-btn {
-        display: block;
-        z-index: 9999;
-    }
-
-    .active .navbar {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
-        transform: translateX(0);
-        z-index: 999;
-    }
-
-    .active .mobile-navbar-btn .mobile-nav-icon[name="close"] {
-        display: block;
-        color: var(--white);
-    }
-
-    .active .mobile-navbar-btn .mobile-nav-icon[name="menu"] {
-        display: none;
-        color: var(--white);
-    }
     .alumni-card-container {
         max-width: 624px;
     }
