@@ -574,6 +574,7 @@ img {
     text-align: center;
     background: #f3f4fa;
     border-radius: 10px;
+    min-height: 460px;
 }
 
 .team .team-content h2 {
@@ -808,6 +809,8 @@ img {
 .alumni-card-text h3 {
     font-size: 18px;
     color: var(---helper-color);
+    overflow: hidden;
+    white-space: pre-wrap;
 }
 
 .alumni-card-text h5 {
