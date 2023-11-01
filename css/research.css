@@ -399,3 +399,9 @@ img {
     transform: scale(1.1);
 }
 
+.scroll-written{
+    text-align: right;
+    font-size: 0.7rem;
+    font-weight: 300;
+    padding-bottom: 0.2rem;
+}

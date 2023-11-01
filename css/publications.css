@@ -488,3 +488,9 @@ p {
 
 
 }
+
+.scroll-written{
+    text-align: right;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
