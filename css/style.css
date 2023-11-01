@@ -476,6 +476,7 @@ h4 {
 }
 
 .location {
+  padding-top: 5px;
   font-size: 2rem;
   color: var(--primary-shades);
 }
