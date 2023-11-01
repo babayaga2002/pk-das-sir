@@ -178,30 +178,6 @@ p {
     margin-bottom: calc(var(--img-padding) * 4);
 }
 
-.timeline:before,
-.timeline:after {
-    display: block;
-    background: url(https://mario.nintendo.com/static/pipe-2x-1a62c181bb0bcd6a84b8b0dd4e31d490.png) no-repeat 0 0;
-    position: absolute;
-    content: "";
-    background-size: auto 100%;
-    background-position: left center;
-    width: 12%;
-    height: 120%;
-    position: absolute;
-    z-index: 100;
-}
-
-.timeline:before {
-    left: 0;
-    transform-origin: center center;
-    transform: scaleX(-1);
-}
-
-.timeline:after {
-    right: 0;
-}
-
 .timeline .carousel {
     /*    border: 1px solid red;*/
     width: 76%;
