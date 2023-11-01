@@ -324,7 +324,6 @@ h4 {
 
 /* Global ::before */
 .card::before {
-  content: "";
   position: absolute;
   width: 50%;
   border: solid orangered;
