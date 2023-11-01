@@ -727,6 +727,7 @@ img {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     transition: 0.5s ease;
     margin: 20px;
+    min-height: 600px;
 }
 
 @media screen and (max-width: 640px) {
@@ -993,7 +994,7 @@ img {
 
 .cell {
     padding: 6px 12px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     display: table-cell;
     text-align: center;
 }
